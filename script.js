@@ -42,7 +42,7 @@ function makeMove(cell, row, col) {
 }
 
 function checkWin() {
-    // Check rows, columns, and diagonals
+    
     for (let i = 0; i < 3; i++) {
         if (board[i][0] && board[i][0] === board[i][1] && board[i][0] === board[i][2]) {
             return true;
