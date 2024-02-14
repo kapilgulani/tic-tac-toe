@@ -2,6 +2,9 @@
 
 A simple, interactive Tic Tac Toe game built with HTML, CSS, and JavaScript. This project allows two players to play the classic game directly from their web browsers by clicking on the grid to make their moves.
 
+## Website
+- https://kapiltictactoe.tiiny.site/
+
 ## Features
 
 - Interactive 3x3 game grid
