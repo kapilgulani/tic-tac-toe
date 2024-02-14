@@ -80,7 +80,7 @@ function resetGame() {
     currentPlayer = 'X';
     gameOver = false;
     document.getElementById('status').innerText = '';
-    document.getElementById('playAgain').style.display = 'none';
+    document.getElementById('playAgain').style.display = 'block'; 
     
     let cells = document.querySelectorAll('.cell');
     cells.forEach(cell => {

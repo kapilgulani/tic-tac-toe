@@ -32,3 +32,21 @@ body {
     text-align: center;
     font-size: 20px;
 }
+
+/* Styles for the Play Again button */
+#playAgain {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding around the text */
+    font-size: 16px; /* Larger font size */
+    cursor: pointer; /* Cursor changes to pointer on hover */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    outline: none; /* Removes the outline */
+    margin-top: 20px; /* Adds margin at the top */
+}
+
+#playAgain:hover {
+    background-color: #45a049; /* Darker shade of green on hover */
+}

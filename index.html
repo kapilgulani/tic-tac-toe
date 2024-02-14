@@ -5,6 +5,17 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Tic Tac Toe</title>
 <link rel="stylesheet" href="style.css">
+<style>
+  body {
+    background: linear-gradient(to right, #74ebd5, #acb6e5); /* Linear gradient background */
+  }
+  #gameContainer {
+    background-color: white; /* Ensures the game container has a white background */
+    padding: 20px; /* Optional: Adds some space around your grid */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Optional: Adds a subtle shadow for better contrast */
+    margin: auto; /* Center the game container */
+  }
+</style>
 </head>
 <body>
 <div id="gameContainer">
@@ -24,7 +35,7 @@
         <div class="cell" onclick="makeMove(this, 2, 2)"></div>
     </div>
     <div id="status"></div>
-    <button id="playAgain" style="display:none;">Play Again</button>
+    <button id="playAgain">Play Again</button> 
 </div>
 <script src="script.js"></script>
 </body>
