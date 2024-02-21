@@ -22,7 +22,5 @@ To get a local copy up and running, follow these simple steps.
 This project does not have any dependencies. It runs in any modern web browser.
 
 ### Installation
-
-1. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/TicTacToe.git
+Clone the repo
+   
